@@ -8,7 +8,6 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class ProductService {
   //readonly API_URL = 'http://localhost:8089/SpringMVC/produit';
-  //readonly API_URL = 'http://localhost:8089/SpringMVC/produit';
   readonly API_URL = `${environment.apiUrl}/produit`;
   
   constructor(private httpClient: HttpClient) { }
